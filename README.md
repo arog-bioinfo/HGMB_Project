@@ -23,7 +23,7 @@ This repository contains machine learning models for gut microbiome analysis, in
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-✅ **Maintained by:** Artur Gomes (AROG)  
+✅ **Maintained by:** Artur Gomes (arog-bioinfo)  
 📧 **Contact:** pg55692@uminho.pt  
 🔗 **Project Website:** [Insert Link]  
 
