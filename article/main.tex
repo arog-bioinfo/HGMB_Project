@@ -1,0 +1,45 @@
+% LaTeX Template for Gut Microbiome ML Article
+\documentclass[runningheads]{template/llncs}
+
+% Packages
+\usepackage[T1]{fontenc}   % Encoding
+\usepackage{graphicx}         % Figures
+\usepackage{amsmath, amssymb} % Math symbols
+\usepackage{hyperref}         % Hyperlinks
+
+% Title & Authors
+\title{Gut Microbiome ML: Multi-Omics Integration for Dysbiosis Classification}
+\author{Your Name \inst{1} \and Co-Author \inst{2}}
+\authorrunning{Your Name et al.}
+\institute{Your Institution \email{your.email@example.com} \and Second Institution}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This article presents a machine learning approach to gut microbiome analysis, integrating metagenomics and fluxomics to identify dysbiosis patterns.
+\end{abstract}
+
+\keywords{Microbiome, Machine Learning, Multi-Omics, Dysbiosis}
+
+\section{Introduction}
+\input{sections/intro}
+
+\section{Methods}
+\input{sections/methods}
+
+\section{Results}
+\input{sections/results}
+
+\section{Discussion}
+\input{sections/discussion}
+
+\section{Conclusion}
+This study demonstrates the potential of machine learning in microbiome-based disease prediction. Future work will explore additional omics layers.
+
+\bibliographystyle{template/splncs04}
+\bibliography{bibliography/references}
+
+\end{document}
