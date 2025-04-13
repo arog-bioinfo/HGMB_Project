@@ -1,6 +1,4 @@
-# HGMBiome Project
-
-🚀 **Multi-omics Machine Learning for Gut Microbiome Health Analysis**
+# HGMBiome Project (Bioinformatics Project)
 
 ## 🔍 Project Overview
 
