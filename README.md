@@ -1,4 +1,4 @@
-# HGMBiome Project (Bioinformatics Project)
+# Bioinformatics Project
 
 ## 🔍 Project Overview
 
