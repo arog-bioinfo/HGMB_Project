@@ -22,5 +22,3 @@ Ultimately, this project contributes to the functional stratification of the gut
 ---
 ✅ **Maintained by:** Artur Gomes (arog-bioinfo)  
 📧 **Contact:** pg55692@uminho.pt  
-🔗 **Project Website:** [Insert Link]  
-
