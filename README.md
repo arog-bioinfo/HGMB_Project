@@ -14,7 +14,7 @@ Using tools such as SMETANA, MICOM, and SteadyCom, we simulate microbial communi
 
 We then apply dimensionality reduction and clustering techniques to the resulting metabolic profiles to uncover microbial ecotypes and functional subnetworks characteristic of a healthy gut environment.
 
-Ultimately, this project contributes to the functional stratification of the gut microbiome and supports the development of simulation-driven approaches to microbiome diagnostics and therapeutics.## 📌 Project Overview
+Ultimately, this project contributes to the functional stratification of the gut microbiome and supports the development of simulation-driven approaches to microbiome diagnostics and therapeutics.
 
 
 > *More content will be added as the project evolves.*
