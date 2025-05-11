@@ -1,0 +1,14 @@
+UP name,NCBI taxonomy name,Assembly ID (UP matched),Present in GFKB v3 (Y/N),Present in GFKB v5 (Y/N),BiGG Model Link
+Escherichia coli (strain B / BL21-DE3),Escherichia coli,GCA_000023665.1,Y,N,http://bigg.ucsd.edu/models/iEC1356_Bl21DE3
+Escherichia coli (strain SE11),Escherichia coli SE11,GCA_000010385.1,N,Y,http://bigg.ucsd.edu/models/iECSE_1348
+Escherichia coli (strain SMS-3-5 / SECEC),Escherichia coli SMS-3-5,GCA_000019645.1,Y,N,http://bigg.ucsd.edu/models/iEcSMS35_1347
+Escherichia coli (strain UTI89 / UPEC),Escherichia coli UTI89,GCA_000013265.1,Y,N,http://bigg.ucsd.edu/models/iUTI89_1310
+Escherichia coli O17:K52:H18 (strain UMN026 / ExPEC),Escherichia coli,GCA_000026325.2,Y,N,http://bigg.ucsd.edu/models/iECUMN_1333
+Escherichia coli O25b:H4-ST131,Escherichia coli SE15,GCA_000285655.3,Y,N,http://bigg.ucsd.edu/models/iECSF_1327
+Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC),Escherichia coli CFT073,GCA_000007445.1,Y,N,http://bigg.ucsd.edu/models/ic_1306
+Escherichia coli O78:H11 (strain H10407 / ETEC),Escherichia coli,GCA_000210475.1,Y,N,http://bigg.ucsd.edu/models/iETEC_1333
+Escherichia coli O83:H1 (strain NRG 857C / AIEC),Escherichia coli LF82,GCA_000183345.1,Y,N,http://bigg.ucsd.edu/models/iNRG857_1313
+Escherichia coli UMNK88,Escherichia coli UMNK88,GCA_000212715.2,Y,N,http://bigg.ucsd.edu/models/iUMNK88_1353
+Klebsiella pneumoniae subsp. pneumoniae (strain ATCC 700721 / MGH 78578),Klebsiella pneumoniae subsp. pneumoniae MGH 78578,GCA_000016305.1,N,Y,http://bigg.ucsd.edu/models/iYL1228
+Peptoclostridium difficile (strain 630),Clostridioides difficile 630,GCA_000009205.2,Y,N,http://bigg.ucsd.edu/models/iCN900
+Shigella dysenteriae serotype 1 (strain Sd197),Shigella dysenteriae Sd197,GCA_000012005.1,N,Y,http://bigg.ucsd.edu/models/iSDY_1059
