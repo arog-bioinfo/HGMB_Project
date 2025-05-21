@@ -2,7 +2,7 @@
 
 ## 🔍 Project Overview
 
-This project explores the human gut microbiome—a complex and dynamic ecosystem—through the lens of genome-scale metabolic modeling. By integrating curated taxonomic profiles from GutFeelingKB with metabolic reconstructions from the BiGG Models database, we aim to simulate and analyze the metabolic behavior of microbes commonly associated with gut health.
+This project investigates the human gut microbiome—a complex and dynamic ecosystem—through genome-scale metabolic modeling (GEMs). By integrating curated taxonomic profiles from GutFeelingKB (GFKB) with metabolic models from the BiGG Models database, we simulate and analyze microbial metabolic behaviors relevant to gut health.
 
 Using tools such as SMETANA, MICOM, and SteadyCom, we simulate microbial community interactions to investigate:
 
@@ -19,6 +19,15 @@ Ultimately, this project contributes to the functional stratification of the gut
 
 > *More content will be added as the project evolves.*
 
+📁 Repository Structure
+
+HGMB_PROJECT/
+├── article/               # Final report and manuscript materials
+├── datasets/              # Input datasets from GutFeelingKB (used for cross-referencing with BiggModels)
+├── models/                # SBML-formatted metabolic models for selected gut species
+├── results/               # Output from simulation tools
+└── simulation_scripts/    # Python scripts used to run simulations with MICOM, SMETANA, etc.
+
 ---
 ✅ **Maintained by:** Artur Gomes (arog-bioinfo)  
-📧 **Contact:** pg55692@uminho.pt  
+📧 **Contact:** ----------------

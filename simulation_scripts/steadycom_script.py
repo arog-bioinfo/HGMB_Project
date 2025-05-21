@@ -3,17 +3,17 @@ from reframed import load_cbmodel, Community, Environment, SteadyCom, SteadyComV
 
 # === Configuration ===
 base_path = "/home/arog/models/xml"
-biomass_rxn_id = "R_BIOMASS_Ec_iJO1366_core_53p95M"
-biomass_rxn_id_iYL1228 = "R_BIOMASS_"
+biomass_rxn_id = "R_BIOMASS_Ec_iJO1366_core_53p95M" 
+biomass_rxn_id_iYL1228 = "R_BIOMASS_" # diferentes id de biomassa comparado com os outros modelos
 biomass_rxn_id_iCN900 = "R_BIOMASS__5"
 num_iterations = 7
 
 # Define external medium
 minimal_medium = [
-    'R_EX_M_s_e', 'R_EX_M_o2_e', 'R_EX_M_ppi_e',
+    'R_EX_M_s_e', 'R_EX_M_o2_e', 'R_EX_M_ppi_e', 
     'R_EX_M_fe2_e', 'R_EX_M_nh4_e', 'R_EX_M__e'
 ]
-carbon_source = ['R_EX_M_co2_e']
+carbon_source = ['R_EX_co2_e']
 carbon_flux = -0.421
 
 # === Step 1: Load models ===
@@ -30,14 +30,7 @@ def find_biomass_reaction(model, file_name):
     if candidate in model.reactions:
         return candidate
 
-    # Fallback: try to find reaction with "biomass" in ID
-    for r_id in model.reactions:
-        if "biomass" in r_id.lower():
-            print(f"  Biomass fallback match: {r_id}")
-            return r_id
-
-    # If none found
-    raise RuntimeError(f"No biomass reaction found in model: {file_name}")
+    raise RuntimeError(f"Biomass reaction not found in model: {file_name}")
 
 def load_models_from_folder(folder_path):
     models = []
@@ -49,7 +42,6 @@ def load_models_from_folder(folder_path):
             # Assign biomass reaction safely
             biomass_rid = find_biomass_reaction(model, file)
             model.biomass_reaction = biomass_rid
-            print(f"Assigned biomass: {biomass_rid} for model: {file}")
 
             # Close all exchanges initially
             for r_id, rxn in model.reactions.items():
@@ -119,4 +111,3 @@ if __name__ == "__main__":
     fva = SteadyComVA(community, obj_frac=0.8, constraints=final_constraints)
     print(fva)
 
-    
