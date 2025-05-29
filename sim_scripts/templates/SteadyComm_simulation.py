@@ -20,6 +20,7 @@ for file in os.listdir(basePath):
         for r_id, rxn in model.reactions.items():
             if r_id.startswith('R_EX_'):
                 rxn.lb = 0
+                constraints.append(r_id)
 
         list_models.append(model)
 
