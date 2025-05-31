@@ -1,0 +1,15 @@
+Objective
+=========
+1.0 BIOMASS__5 = 0.0
+
+Uptake
+------
+Empty DataFrame
+Columns: [Metabolite, Reaction, Flux, C-Number, C-Flux]
+Index: []
+
+Secretion
+---------
+Empty DataFrame
+Columns: [Metabolite, Reaction, Flux, C-Number, C-Flux]
+Index: []
