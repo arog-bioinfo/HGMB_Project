@@ -1,6 +1,6 @@
 Objective
 =========
-1.0 BIOMASS_Ec_iJO1366_core_53p95M = 1.0319222801126868
+1.0 Biomass_Gut = 1.0319222801126868
 
 Uptake
 ------

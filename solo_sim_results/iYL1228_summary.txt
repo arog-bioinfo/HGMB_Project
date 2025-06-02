@@ -1,6 +1,6 @@
 Objective
 =========
-1.0 BIOMASS_ = 1.042637497977364
+1.0 Biomass_Gut = 1.042637497977364
 
 Uptake
 ------
