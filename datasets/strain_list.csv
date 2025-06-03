@@ -1,0 +1,14 @@
+UP name,Present in GFKB v3 (Y/N),Present in GFKB v5 (Y/N)
+Escherichia coli (strain B / BL21-DE3),Y,N
+Escherichia coli (strain SE11),N,Y
+Escherichia coli (strain SMS-3-5 / SECEC),Y,N
+Escherichia coli (strain UTI89 / UPEC),Y,N
+Escherichia coli O17:K52:H18 (strain UMN026 / ExPEC),Y,N
+Escherichia coli O25b:H4-ST131,Y,N
+Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC),Y,N
+Escherichia coli O78:H11 (strain H10407 / ETEC),Y,N
+Escherichia coli O83:H1 (strain NRG 857C / AIEC),Y,N
+Escherichia coli UMNK88,Y,N
+Klebsiella pneumoniae subsp. pneumoniae (strain ATCC 700721 / MGH 78578),N,Y
+Peptoclostridium difficile (strain 630),Y,N
+Shigella dysenteriae serotype 1 (strain Sd197),N,Y

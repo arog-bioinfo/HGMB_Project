@@ -1,0 +1,65 @@
+Objective
+=========
+1.0 Biomass_Gut = 0.35351835589373864
+
+Uptake
+------
+Metabolite     Reaction      Flux  C-Number C-Flux
+  arg__L_e  EX_arg__L_e         1         6  5.77%
+  asn__L_e  EX_asn__L_e         1         4  3.85%
+  asp__L_e  EX_asp__L_e         1         4  3.85%
+     btn_e     EX_btn_e  7.07E-07        10  0.00%
+     ca2_e     EX_ca2_e   0.00184         0  0.00%
+      cl_e      EX_cl_e   0.00184         0  0.00%
+ cobalt2_e EX_cobalt2_e 8.838E-06         0  0.00%
+     cu2_e     EX_cu2_e 0.0002506         0  0.00%
+  cys__L_e  EX_cys__L_e   0.03314         3  0.10%
+     fe2_e     EX_fe2_e  0.002918         0  0.00%
+     fe3_e     EX_fe3_e   0.00276         0  0.00%
+  glc__D_e  EX_glc__D_e        10         6 57.72%
+  gln__L_e  EX_gln__L_e    0.7092         5  3.41%
+  glu__L_e  EX_glu__L_e         1         5  4.81%
+     h2o_e     EX_h2o_e       1.1         0  0.00%
+  his__L_e  EX_his__L_e   0.03349         6  0.19%
+  ile__L_e  EX_ile__L_e    0.1027         6  0.59%
+       k_e       EX_k_e     0.069         0  0.00%
+  leu__L_e  EX_leu__L_e    0.1593         6  0.92%
+  lys__L_e  EX_lys__L_e    0.1213         6  0.70%
+  met__L_e  EX_met__L_e   0.05441         5  0.26%
+     mg2_e     EX_mg2_e  0.003067         0  0.00%
+     mn2_e     EX_mn2_e 0.0002443         0  0.00%
+    mobd_e    EX_mobd_e  4.56E-05         0  0.00%
+     nac_e     EX_nac_e 0.0008053         6  0.00%
+     ni2_e     EX_ni2_e 0.0001142         0  0.00%
+  phe__L_e  EX_phe__L_e   0.06549         9  0.57%
+      pi_e      EX_pi_e     0.341         0  0.00%
+ pnto__R_e EX_pnto__R_e 0.0002036         9  0.00%
+  pro__L_e  EX_pro__L_e   0.07815         5  0.38%
+  ser__L_e  EX_ser__L_e    0.4518         3  1.30%
+     so4_e     EX_so4_e  0.001534         0  0.00%
+     thm_e     EX_thm_e 7.883E-05        12  0.00%
+  thr__L_e  EX_thr__L_e         1         4  3.85%
+  trp__L_e  EX_trp__L_e         1        11 10.58%
+  tyr__L_e  EX_tyr__L_e   0.04875         9  0.42%
+  val__L_e  EX_val__L_e    0.1496         5  0.72%
+     zn2_e     EX_zn2_e 0.0001205         0  0.00%
+
+Secretion
+---------
+Metabolite    Reaction       Flux  C-Number C-Flux
+   5drib_c  DM_5drib_c -0.0001577         5  0.00%
+  mththf_c DM_mththf_c -0.0001577         5  0.00%
+      ac_e     EX_ac_e         -5         2 11.18%
+  ala__D_e EX_ala__D_e  -0.004912         3  0.02%
+  ala__L_e EX_ala__L_e      -1.45         3  4.87%
+     co2_e    EX_co2_e     -12.71         1 14.21%
+    etoh_e   EX_etoh_e     -10.11         2 22.60%
+     for_e    EX_for_e     -1.147         1  1.28%
+     gly_e    EX_gly_e    -0.8617         2  1.93%
+  glyclt_e EX_glyclt_e -0.0002365         2  0.00%
+       h_e      EX_h_e     -9.514         0  0.00%
+  indole_e EX_indole_e    -0.9799         8  8.76%
+  lac__D_e EX_lac__D_e         -5         3 16.77%
+     nh4_e    EX_nh4_e         -5         0  0.00%
+    ptrc_e   EX_ptrc_e    -0.8954         4  4.00%
+    succ_e   EX_succ_e     -3.215         4 14.38%

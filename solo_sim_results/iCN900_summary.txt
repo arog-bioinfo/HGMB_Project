@@ -1,15 +1,30 @@
 Objective
 =========
-1.0 Biomass_Gut = 0.0
+1.0 Biomass_Gut = 0.06696060037523446
 
 Uptake
 ------
-Empty DataFrame
-Columns: [Metabolite, Reaction, Flux, C-Number, C-Flux]
-Index: []
+Metabolite     Reaction    Flux  C-Number C-Flux
+     co2_e     EX_co2_e   10.54         1 11.64%
+  cys__L_e  EX_cys__L_e  0.2009         3  0.67%
+  glc__D_e  EX_glc__D_e   10.46         6 69.27%
+       h_e       EX_h_e   51.05         0  0.00%
+  ile__L_e  EX_ile__L_e  0.1339         6  0.89%
+  leu__L_e  EX_leu__L_e       1         6  6.62%
+  met__L_e  EX_met__L_e  0.1339         5  0.74%
+     nac_e     EX_nac_e  0.2678         6  1.77%
+     nh4_e     EX_nh4_e   7.241         0  0.00%
+      pi_e      EX_pi_e   3.549         0  0.00%
+ pnto__R_e EX_pnto__R_e  0.1339         9  1.33%
+  pro__L_e  EX_pro__L_e  0.1339         5  0.74%
+  trp__L_e  EX_trp__L_e 0.06696        11  0.81%
+  val__L_e  EX_val__L_e       1         5  5.52%
 
 Secretion
 ---------
-Empty DataFrame
-Columns: [Metabolite, Reaction, Flux, C-Number, C-Flux]
-Index: []
+Metabolite     Reaction     Flux  C-Number C-Flux
+ biomass_c DM_biomass_c -0.06696         0  0.00%
+      ac_e      EX_ac_e   -7.343         2 62.90%
+     h2o_e     EX_h2o_e   -53.01         0  0.00%
+ isobuta_e EX_isobuta_e  -0.8661         4 14.84%
+  isocap_e  EX_isocap_e  -0.8661         6 22.26%

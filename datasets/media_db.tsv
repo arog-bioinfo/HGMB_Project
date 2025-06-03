@@ -1,0 +1,109 @@
+medium	description	compound	name
+Gut	Defined gut environment	glc__D	D-Glucose
+Gut	Defined gut environment	ac	Acetate
+Gut	Defined gut environment	but	Butyrate
+Gut	Defined gut environment	lac__D	D-Lactate
+Gut	Defined gut environment	lac__L	L-Lactate
+Gut	Defined gut environment	succ	Succinate
+Gut	Defined gut environment	ala__L	L-Alanine
+Gut	Defined gut environment	arg__L	L-Arginine
+Gut	Defined gut environment	asn__L	L-Asparagine
+Gut	Defined gut environment	asp__L	L-Aspartate
+Gut	Defined gut environment	cys__L	L-Cysteine
+Gut	Defined gut environment	gln__L	L-Glutamine
+Gut	Defined gut environment	glu__L	L-Glutamate
+Gut	Defined gut environment	gly	Glycine
+Gut	Defined gut environment	his__L	L-Histidine
+Gut	Defined gut environment	ile__L	L-Isoleucine
+Gut	Defined gut environment	leu__L	L-Leucine
+Gut	Defined gut environment	lys__L	L-Lysine
+Gut	Defined gut environment	met__L	L-Methionine
+Gut	Defined gut environment	phe__L	L-Phenylalanine
+Gut	Defined gut environment	pro__L	L-Proline
+Gut	Defined gut environment	ser__L	L-Serine
+Gut	Defined gut environment	thr__L	L-Threonine
+Gut	Defined gut environment	trp__L	L-Tryptophan
+Gut	Defined gut environment	tyr__L	L-Tyrosine
+Gut	Defined gut environment	val__L	L-Valine
+Gut	Defined gut environment	ca2	Calcium ion (Ca²⁺)
+Gut	Defined gut environment	cl	Chloride ion (Cl⁻)
+Gut	Defined gut environment	k	Potassium ion (K⁺)
+Gut	Defined gut environment	mg2	Magnesium ion (Mg²⁺)
+Gut	Defined gut environment	mn2	Manganese ion (Mn²⁺)
+Gut	Defined gut environment	nh4	Ammonium ion (NH₄⁺)
+Gut	Defined gut environment	pi	Inorganic phosphate (HPO₄²⁻/H₂PO₄⁻)
+Gut	Defined gut environment	so4	Sulfate (SO₄²⁻)
+Gut	Defined gut environment	fe2	Ferrous ion (Fe²⁺)
+Gut	Defined gut environment	zn2	Zinc ion (Zn²⁺)
+Gut	Defined gut environment	nac	Nicotinate (Vitamin B3)
+Gut	Defined gut environment	thm	Thiamine (Vitamin B1)
+Gut	Defined gut environment	btn	Biotin (Vitamin B7)
+Gut	Defined gut environment	pnto__R	D-Pantothenate (Vitamin B5)
+Gut	Defined gut environment	ribflv	Riboflavin (Vitamin B2)
+Gut	Defined gut environment	o2	Oxygen (O₂)
+Gut	Defined gut environment	h2o	Water (H₂O)
+Gut	Defined gut environment	co2	Carbon dioxide (CO₂)
+LB[-O2]	Lysogeny broth (anaerobic)	adn	Adenosine
+LB[-O2]	Lysogeny broth (anaerobic)	ala__L	L-Alanine
+LB[-O2]	Lysogeny broth (anaerobic)	amp	AMP
+LB[-O2]	Lysogeny broth (anaerobic)	arg__L	L-Arginine
+LB[-O2]	Lysogeny broth (anaerobic)	aso3	Arsenite 
+LB[-O2]	Lysogeny broth (anaerobic)	asp__L	L-Aspartate
+LB[-O2]	Lysogeny broth (anaerobic)	ca2	Ca2+
+LB[-O2]	Lysogeny broth (anaerobic)	cbl1	Vitamin B12
+LB[-O2]	Lysogeny broth (anaerobic)	cd2	Cadmium 
+LB[-O2]	Lysogeny broth (anaerobic)	cl	Cl-
+LB[-O2]	Lysogeny broth (anaerobic)	cmp	CMP
+LB[-O2]	Lysogeny broth (anaerobic)	cobalt2	Co2+
+LB[-O2]	Lysogeny broth (anaerobic)	cro4	Chromate 
+LB[-O2]	Lysogeny broth (anaerobic)	cu2	Cu2+
+LB[-O2]	Lysogeny broth (anaerobic)	cys__L	L-Cysteine
+LB[-O2]	Lysogeny broth (anaerobic)	dad_2	Deoxyadenosine 
+LB[-O2]	Lysogeny broth (anaerobic)	dcyt	Deoxycytidine
+LB[-O2]	Lysogeny broth (anaerobic)	fe2	Fe2+
+LB[-O2]	Lysogeny broth (anaerobic)	fe3	Fe3+
+LB[-O2]	Lysogeny broth (anaerobic)	fol	Folate
+LB[-O2]	Lysogeny broth (anaerobic)	glc__D	D-Glucose
+LB[-O2]	Lysogeny broth (anaerobic)	glu__L	L-Glutamate
+LB[-O2]	Lysogeny broth (anaerobic)	gly	Glycine
+LB[-O2]	Lysogeny broth (anaerobic)	gmp	GMP
+LB[-O2]	Lysogeny broth (anaerobic)	gsn	Guanosine
+LB[-O2]	Lysogeny broth (anaerobic)	h2o	H2O
+LB[-O2]	Lysogeny broth (anaerobic)	h2s	Hydrogen sulfide
+LB[-O2]	Lysogeny broth (anaerobic)	h	H+
+LB[-O2]	Lysogeny broth (anaerobic)	hg2	Hg2+ 
+LB[-O2]	Lysogeny broth (anaerobic)	his__L	L-Histidine
+LB[-O2]	Lysogeny broth (anaerobic)	hxan	Hypoxanthine
+LB[-O2]	Lysogeny broth (anaerobic)	ile__L	L-Isoleucine
+LB[-O2]	Lysogeny broth (anaerobic)	ins	Inosine
+LB[-O2]	Lysogeny broth (anaerobic)	k	K+
+LB[-O2]	Lysogeny broth (anaerobic)	leu__L	L-Leucine
+LB[-O2]	Lysogeny broth (anaerobic)	lipoate	Lipoate
+LB[-O2]	Lysogeny broth (anaerobic)	lys__L	L-Lysine
+LB[-O2]	Lysogeny broth (anaerobic)	met__L	L-Methionine
+LB[-O2]	Lysogeny broth (anaerobic)	mg2	Mg
+LB[-O2]	Lysogeny broth (anaerobic)	mn2	Mn2+
+LB[-O2]	Lysogeny broth (anaerobic)	mobd	Molybdate
+LB[-O2]	Lysogeny broth (anaerobic)	na1	Na+
+LB[-O2]	Lysogeny broth (anaerobic)	nac	Isonicotinic acid
+LB[-O2]	Lysogeny broth (anaerobic)	nh4	Ammonium
+LB[-O2]	Lysogeny broth (anaerobic)	ni2	Ni2+
+LB[-O2]	Lysogeny broth (anaerobic)	phe__L	L-Phenylalanine
+LB[-O2]	Lysogeny broth (anaerobic)	pheme	Protoheme
+LB[-O2]	Lysogeny broth (anaerobic)	pi	Phosphate
+LB[-O2]	Lysogeny broth (anaerobic)	pnto__R	PAN
+LB[-O2]	Lysogeny broth (anaerobic)	pro__L	L-Proline
+LB[-O2]	Lysogeny broth (anaerobic)	pydx	Pyridoxal
+LB[-O2]	Lysogeny broth (anaerobic)	ribflv	Riboflavin
+LB[-O2]	Lysogeny broth (anaerobic)	ser__L	L-Serine
+LB[-O2]	Lysogeny broth (anaerobic)	so4	Sulfate
+LB[-O2]	Lysogeny broth (anaerobic)	thm	Thiamin
+LB[-O2]	Lysogeny broth (anaerobic)	thr__L	L-Threonine
+LB[-O2]	Lysogeny broth (anaerobic)	thymd	Thymidine
+LB[-O2]	Lysogeny broth (anaerobic)	trp__L	L-Tryptophan
+LB[-O2]	Lysogeny broth (anaerobic)	tyr__L	L-Tyrosine
+LB[-O2]	Lysogeny broth (anaerobic)	ump	UMP
+LB[-O2]	Lysogeny broth (anaerobic)	ura	Uracil
+LB[-O2]	Lysogeny broth (anaerobic)	uri	Uridine
+LB[-O2]	Lysogeny broth (anaerobic)	val__L	L-Valine
+LB[-O2]	Lysogeny broth (anaerobic)	zn2	Zn2+
