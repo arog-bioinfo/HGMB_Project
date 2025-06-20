@@ -8,7 +8,7 @@ This repository contains the full pipeline, datasets, scripts, and results used 
 ## 📁 Repository Structure
 
 ```
-├── analysis/               # Scripts and notebooks for analyzing simulation outputs (FBA, t-SNE, clustering, etc.)
+├── analysis/               # Scripts and notebooks for analyzing communitysimulation outputs
 ├── article/                # LaTeX source and exported PDFs of the project article
 ├── comm_results/           # Results from community-level simulations (SMETANA, MICOM, SteadyCom)
 ├── comm_sim_scripts/       # Scripts used to run community-level simulations
@@ -17,9 +17,7 @@ This repository contains the full pipeline, datasets, scripts, and results used 
 ├── solo_sim_results/       # Results from individual model simulations (e.g., FBA, minimal media)
 ├── solo_sim_scripts/       # Scripts for running simulations on individual GEMs
 ├── LICENSE                 # License file
-├── README.md               # Project documentation
-└── slides_presentation.pdf # Final presentation slides (PDF)
-```
+└── README.md               # Project documentation
 
 ---
 
