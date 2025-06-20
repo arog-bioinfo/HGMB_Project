@@ -1,33 +1,58 @@
-# Bioinformatics Project
+# 🧫 HGMBiome Project
 
-## 🔍 Project Overview
-
-This project investigates the human gut microbiome—a complex and dynamic ecosystem—through genome-scale metabolic modeling (GEMs). By integrating curated taxonomic profiles from GutFeelingKB (GFKB) with metabolic models from the BiGG Models database, we simulate and analyze microbial metabolic behaviors relevant to gut health.
-
-Using tools such as SMETANA, MICOM, and SteadyCom, we simulate microbial community interactions to investigate:
-
-    🧬 Metabolic cooperation and competition
-
-    ⚖️ Community stability
-
-    🔄 Resource exchange
-
-We then apply dimensionality reduction and clustering techniques to the resulting metabolic profiles to uncover microbial ecotypes and functional subnetworks characteristic of a healthy gut environment.
-
-Ultimately, this project contributes to the functional stratification of the gut microbiome and supports the development of simulation-driven approaches to microbiome diagnostics and therapeutics.
-
-
-> *More content will be added as the project evolves.*
-
-📁 Repository Structure
-
-HGMB_PROJECT/
-├── article/               # Final report and manuscript materials
-├── datasets/              # Input datasets from GutFeelingKB (used for cross-referencing with BiggModels)
-├── models/                # SBML-formatted metabolic models for selected gut species
-├── results/               # Output from simulation tools
-└── simulation_scripts/    # Python scripts used to run simulations with MICOM, SMETANA, etc.
+**Simulation-based analysis of gut microbial communities using constraint-based metabolic models.**
+This repository contains the full pipeline, datasets, scripts, and results used to explore community-level metabolic modeling of gut microbiota.
 
 ---
-✅ **Maintained by:** Artur Gomes (arog-bioinfo)  
-📧 **Contact:** ----------------
+
+## 📁 Repository Structure
+
+```
+├── analysis/               # Scripts and notebooks for analyzing simulation outputs (FBA, t-SNE, clustering, etc.)
+├── article/                # LaTeX source and exported PDFs of the project article
+├── comm_results/           # Results from community-level simulations (SMETANA, MICOM, SteadyCom)
+├── comm_sim_scripts/       # Scripts used to run community-level simulations
+├── datasets/               # Input datasets (GutFeelingKB, BiGG info) and preprocessing scripts
+├── models/                 # Genome-scale metabolic models (GEMs) used in simulations
+├── solo_sim_results/       # Results from individual model simulations (e.g., FBA, minimal media)
+├── solo_sim_scripts/       # Scripts for running simulations on individual GEMs
+├── LICENSE                 # License file
+├── README.md               # Project documentation
+└── slides_presentation.pdf # Final presentation slides (PDF)
+```
+
+---
+
+## 🧪 Project Overview
+
+This project tests a pipeline for simulating and analyzing gut microbial communities using multiple metabolic modeling tools.
+Key tools include:
+
+* **COBRApy** – for individual GEM validation and minimal medium construction
+* **SMETANA** – for predicting metabolic dependencies
+* **MICOM** – for abundance-informed community simulations
+* **SteadyCom** – for stable community composition estimation
+
+---
+
+## 📌 Goals
+
+* Integrate and validate community simulation tools
+* Build a reproducible and extensible modeling pipeline
+* Test analytical strategies (dimensionality reduction, clustering)
+* Explore the feasibility of characterizing microbial ecotypes via simulation
+
+---
+
+## 🛠 Requirements
+
+Python 3.10+ with packages:
+
+* `cobra`
+* `micom`
+* `reframed`
+* `pandas`, `numpy`, `matplotlib`, `scikit-learn`
+
+Solver/Simulation Engine Cplex recommended
+
+✅ **Maintained by:** Artur Gomes (arog-bioinfo)
